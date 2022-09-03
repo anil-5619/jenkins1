@@ -23,7 +23,6 @@ pipeline{
                 }
                 
             }
-		//multi
             stage('CodeReview'){
                steps{
                     echo "code review is succesfully"
